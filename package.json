@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gurpahul/ACRADE-NEW-/issues"
   },
-  "homepage": "https://github.com/gurpahul/ACRADE-NEW-#readme"
+  "homepage": "https://github.com/gurpahul/ACRADE-NEW-#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^5.0.0"
+  }
 }
