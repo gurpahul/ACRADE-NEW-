@@ -6,7 +6,7 @@ const babel = require('gulp-babel');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
-gulp.task('default', function(){
+gulp.task('default', ['css', 'images', 'js'],function(){
 
     gulp.watch('./src/css/*.css', ['css'])
 });
